@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Main</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css" type="text/css">
+    </head>
+    <body>
+        
+        <div id="up">
+           <Span wicket:id="SendedParam"></Span> -
+           <Span wicket:id="SendedParam2"></Span>
+        </div>
+        <div style="clear:both"></div>
+        <div id="logging">
+
+
+		<b>HISTORY:</b><br />
+        <span wicket:id="listview">
+   	 	<span wicket:id="label">label</span><br/>
+		</span>
+        <br />
+        
+        <form wicket:id="form">
+        
+         <input type="submit" class="submit" wicket:id="addUser" value="Add New User"/><br /><br />
+          <input type="submit" class="submit" style="background-color: #B04862;" wicket:id="logOut" value="LOGOUT"/>
+        </form>
+        
+    </div>
+        <div style="clear:both"></div>
+    </body>
+</html>

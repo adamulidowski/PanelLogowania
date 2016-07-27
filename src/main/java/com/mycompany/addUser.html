@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Add new user</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css" type="text/css">
+    </head>
+    <body>
+        
+        <div id="up">
+           Add new User
+        </div>
+        <div style="clear:both"></div>
+        <div id="logging">
+        
+        
+        <form wicket:id="form">
+        <br/><br/>
+		Username: <input type="text" class="form" wicket:id="name"/><br/>
+		Password: <input type="password" class="form" wicket:id="pass"/><br/><br/>
+		  <input type="submit" class="submit"  value="CREATE"/>
+		 
+	</form>
+	 
+	<br/>
+	<span wicket:id="exist" id="message" style="color: #B04862;"></span>
+	<span wicket:id="message" id="message"></span>
+	<span wicket:id="length" id="message" style="color: #B04862;"></span>
+	
+       <br/>  <br/>  
+       <form wicket:id="form2">
+   <input type="submit" style="background-color: #B04862;" class="submit" value="Go back" ><br/>
+		</form>
+	 
+
+    </div>
+        <div style="clear:both"></div>
+    </body>
+</html>
